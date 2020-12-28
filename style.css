@@ -58,6 +58,11 @@ h2 {
   font-size: 20px;
 }
 
+#extras {
+  display: block;
+  margin: 10px 0 0 275px;
+}
+
 footer {
   display: block;
   margin: 0 auto;
