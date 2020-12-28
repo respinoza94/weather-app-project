@@ -10,6 +10,17 @@ body {
   width: 600px;
 }
 
+#user-city {
+  display: block;
+  margin: 0 0 0 140px;
+  width: 200px;
+}
+
+#button-addon2 {
+  display: block;
+  margin: -40px 0 0 350px;
+}
+
 h1 {
   display: block;
   margin: 20px 0;
