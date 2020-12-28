@@ -12,13 +12,13 @@ body {
 
 #user-city {
   display: block;
-  margin: 0 0 0 140px;
-  width: 200px;
+  margin: 0 0 0 10px;
+  width: 400px;
 }
 
 #button-addon2 {
   display: block;
-  margin: -40px 0 0 350px;
+  margin: -40px 0 0 420px;
 }
 
 h1 {
