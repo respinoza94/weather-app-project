@@ -23,19 +23,13 @@ body {
 
 h1 {
   display: block;
-  margin: 50px 350px 0 0;
+  margin: 75px 0 0 0;
   font-size: 20px;
 }
 
 #city {
   display: block;
-  margin: -27px 0;
-  font-size: 30px;
-}
-
-#city {
-  display: block;
-  margin: -70px 0 0 -350px;
+  margin: -65px 0 0 10px;
   font-size: 35px;
 }
 
