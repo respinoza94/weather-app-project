@@ -22,15 +22,15 @@ let day = days[now.getDay()];
 h1.innerHTML = `${day}, ${hours}:${minutes}`;
 
 function displayCurrentWeather(response) {
+  let description = document.querySelector("#description");
+  let humidityElement = document.querySelector("#humidity");
+  let windElement = document.querySelector("#wind");
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
-  let description = document.querySelector("#description");
   description.innerHTML = response.data.weather[0].description;
-  let humidityElement = document.querySelector("humidity");
   humidityElement.innerHTML = response.data.main.humidity;
-  let windElement = document.querySelector("wind");
   windElement.innerHTML = response.data.wind.speed;
 }
 
