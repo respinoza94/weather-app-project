@@ -52,6 +52,11 @@ h2 {
   font-size: 20px;
 }
 
+#description {
+  display: block;
+  margin: -30px 0 0 275px;
+}
+
 #extras {
   display: block;
   margin: 10px 0 0 275px;
