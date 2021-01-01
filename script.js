@@ -28,6 +28,10 @@ function displayCurrentWeather(response) {
   );
   let description = document.querySelector("#description");
   description.innerHTML = response.data.weather[0].description;
+  let humidityElement = document.querySelector("humidity");
+  humidityElement.innerHTML = response.data.main.humidity;
+  let windElement = document.querySelector("wind");
+  windElement.innerHTML = response.data.wind.speed;
 }
 
 function cityInput(event) {
