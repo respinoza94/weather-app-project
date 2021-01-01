@@ -26,6 +26,8 @@ function displayCurrentWeather(response) {
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
+  let description = document.querySelector("#description");
+  description.innerHTML = response.data.weather[0].description;
 }
 
 function cityInput(event) {
