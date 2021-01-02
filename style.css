@@ -33,9 +33,9 @@ h1 {
   font-size: 35px;
 }
 
-.fa-sun {
+#icon {
   display: block;
-  margin: 30px 0 0 -350px;
+  margin: 50px 0 50px 50px;
   font-size: 150px;
 }
 
